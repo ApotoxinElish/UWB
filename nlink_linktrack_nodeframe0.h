@@ -33,7 +33,7 @@ extern "C"
         uint8_t (*const UnpackData)(const uint8_t *data, size_t data_length);
     } nlt_nodeframe0_t;
 
-    extern nlt_nodeframe0_node_t g_nlt_nodeframe0;
+    extern nlt_nodeframe0_t g_nlt_nodeframe0;
 
 #ifdef __cplusplus
 }
