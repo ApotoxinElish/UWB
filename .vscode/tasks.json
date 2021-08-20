@@ -7,6 +7,10 @@
       "args": [
         "-g",
         "${file}",
+        "nlink_utils.c",
+        "nlink_tofsense_frame0.c",
+        "nlink_linktrack_nodeframe0.c",
+        "nlink_linktrack_nodeframe1.c",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
